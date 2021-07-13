@@ -139,13 +139,14 @@ jQuery(document).ready(function($) {
                $(".header").removeClass("active");
             }
         });
-
-
+    
 });
+
+
 
 $(document).ready(function() {
     $('#form-submit').click(function() {
-        $('#contact').attr('action',alert("please contact us through whatsapp +254791393053"));
+        alert("please contact us through whatsapp +254791393053");
         
         
     });
