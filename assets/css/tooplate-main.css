@@ -232,7 +232,7 @@ nav a::before {
   opacity: 1;
   z-index: -1;
 }
-.logo {
+/* .logo {
 	margin-top: 0px;
   top: 0;
   left: 0;
@@ -243,7 +243,7 @@ nav a::before {
 	background-color: #faf5b2;
 	height: 15%;
 	width: 15%;
-}
+} */
 .logo h1 {
   font-size: 24px;
   text-transform: uppercase;

@@ -145,9 +145,12 @@ jQuery(document).ready(function($) {
 
 $(document).ready(function() {
     $('#form-submit').click(function() {
+        
         $('#contact').attr('action',
                        'mailto:phelixouma54@gmail.com?subject=' +
                        $('#name').val() + '&body=' + $('#message').val());
         $('#form-submit').submit();
+        
     });
+    alert("please contact us through whatsapp +254791393053");
 });
